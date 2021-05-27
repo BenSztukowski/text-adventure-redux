@@ -1,0 +1,28 @@
+<div class="status">
+    <table class="container">
+        <tr>
+            <div class="heading">{{name}}</div>
+            <div class="number">XP: {{XP}}</div>
+        </tr>
+        
+        <tr>
+            <div class="heading">HP</div> 
+            <div class="number">{{HP}}</div>
+        </tr>
+        
+       <tr>
+            <div class="heading">Equipment</div> 
+            <div><img src = "../assets/fist-295159_640.png"></div>
+            <div class="subtitle">Bare hands</div>
+       </tr>
+
+       <tr class="clickable">
+           <div class="heading">VIEW STATS</div>
+           <div class="number">^</div>
+       </tr>
+    </table>
+    <H3 id="typewriter" >{{sceneNarration[currentText]}}</H3>
+    <div id="choices"></div>
+    <button id= "blinker" class="blinker" click="currentText++">press enter</button>
+
+</div>
