@@ -1,6 +1,6 @@
 # Textadventure
 
-A work in progress to test the limits of the Angular Framework; A port of my completed console text adventure program including graphics and UI
+A work in progress to test the limits of the Angular Framework; A port of my completed console text adventure program- the goal is including graphics and UI
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.7.
 
